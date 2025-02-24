@@ -93,8 +93,8 @@ Proyecto Hash
 
   - hashlib es una biblioteca estándar de Python, así que no necesitas instalarla.
       Para verificar que funciona, ejecuta en Python:
-        import hashlib
-        print(hashlib.sha256("test".encode()).hexdigest())
+        - import hashlib
+        - print(hashlib.sha256("test".encode()).hexdigest())
 
 3. Cómo ejecutar el script
   - Guarda el código en un archivo llamado custom_hash.py y ejecútalo desde la terminal o CMD:
