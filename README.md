@@ -80,6 +80,10 @@ Troubleshooting
 
 - Frontend no se comunica con el backend:
   - Verifica la URL del API en src/apps/services/task.service.ts y asegúrate de que el backend esté corriendo en el puerto correcto.
+ 
+---
+
+¡Con estos pasos, deberías poder ejecutar ambos proyectos sin problemas! Si encuentras algún error, revisa los logs del backend o frontend y asegúrate de que ambos servicios están configurados correctamente.
 
 ----------------------------------------------------------------------------------------------------------------------------------------------------
 
@@ -99,6 +103,4 @@ Proyecto Hash
 3. Cómo ejecutar el script
   - Guarda el código en un archivo llamado custom_hash.py y ejecútalo desde la terminal o CMD:
         python custom_hash.py
-
-¡Con estos pasos, deberías poder ejecutar ambos proyectos sin problemas! Si encuentras algún error, revisa los logs del backend o frontend y asegúrate de que ambos servicios están configurados correctamente.
 
