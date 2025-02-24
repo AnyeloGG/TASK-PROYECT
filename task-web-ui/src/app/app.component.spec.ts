@@ -2,8 +2,8 @@ import { ComponentFixture, TestBed } from '@angular/core/testing';
 import { AppComponent } from './app.component';
 import { TaskListComponent } from './components/task-list/task-list.component';
 import { CommonModule } from '@angular/common';
-import { HttpClientTestingModule } from '@angular/common/http/testing'; // Importa el módulo de pruebas HTTP
-import { TaskService } from './services/task.service'; // Importa el servicio
+import { HttpClientTestingModule } from '@angular/common/http/testing';
+import { TaskService } from './services/task.service';
 
 describe('AppComponent', () => {
   let component: AppComponent;
