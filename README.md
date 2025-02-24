@@ -44,6 +44,7 @@ Backend: Spring Boot
 3. Ejecutar el backend:
    - Si tienes Maven:
          mvn spring-boot:run
+     o
        ./mvnw spring-boot:run
    - Si tienes Gradle:
        ./gradlew bootRun
