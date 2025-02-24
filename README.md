@@ -75,13 +75,30 @@ Frontend: Angular
 
 Troubleshooting
 
-- Backend no se conecta a la base de datos:
+- Backend no se conecta a una base de datos:
   - Los datos se almacenan en memoria, no deberias necesitar ninguna configuracion de bases de datos
 
 - Frontend no se comunica con el backend:
   - Verifica la URL del API en src/apps/services/task.service.ts y asegúrate de que el backend esté corriendo en el puerto correcto.
 
----
+----------------------------------------------------------------------------------------------------------------------------------------------------
+
+Proyecto Hash
+
+1. Requisitos previos para ejecutar el código:
+  - Python 3.x instalado:
+      Puedes verificar si lo tienes ejecutando en la terminal o CMD: python --version
+    
+2. Asegurar que el módulo hashlib esté disponible
+
+  - hashlib es una biblioteca estándar de Python, así que no necesitas instalarla.
+      Para verificar que funciona, ejecuta en Python:
+        import hashlib
+        print(hashlib.sha256("test".encode()).hexdigest())
+
+3. Cómo ejecutar el script
+  - Guarda el código en un archivo llamado custom_hash.py y ejecútalo desde la terminal o CMD:
+        python custom_hash.py
 
 ¡Con estos pasos, deberías poder ejecutar ambos proyectos sin problemas! Si encuentras algún error, revisa los logs del backend o frontend y asegúrate de que ambos servicios están configurados correctamente.
 
